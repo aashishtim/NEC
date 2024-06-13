@@ -58,17 +58,12 @@ void sampleFunction1(int x)
     printf("Sample Function 1 called with argument %d\n", x);
 }
 
-void sampleFunction2(int x) 
-{
-    printf("Sample Function 2 called with argument %d\n", x);
-}
-
 int main() {
 
     // Registering sample functions
 
     registerFunction(sampleFunction1, "Sample Function 1", 10);
-    registerFunction(sampleFunction2, "Sample Function 2", 20);
+
 
     // Executing registered functions
 
